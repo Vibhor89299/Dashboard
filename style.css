@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#signin{
+    border-radius: 2rem;
+    padding: 5px;
+    background-color: #E85429;
+    color: white;
+}
+
+#signup{
+    border-radius: 2rem;
+    padding: 5px;
+}
+
+.nav-item{
+    font-size: large;
+    margin-left: 2rem;
+}
+
+.nav-item :hover{
+    font-size: large;
+    background-color: grey;
+}
+
+.body-canvas{
+background-image: url('dog1.png');  
+background-repeat: no-repeat;
+display:flex;
+justify-content: center;
+
+
+}
+
+.chart-col-2{
+    margin-left: 50px;
+}
+
+.head-text{
+    margin-top: 70px;
+    
+}

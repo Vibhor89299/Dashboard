@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="style.css" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@1.0.0"></script>
+        
+<!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0" >
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Tableau Public</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link "  href="#">Discover</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="#">Resources</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link "  href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"><button id="signin">SignIn</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"><button id="signup">SignUp</button></a>
+                      </li>
+                    </ul>  
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <div class="container" id="main">
+            <div class="body-head-bar">
+                <div class="heading">
+                    <h5>Last Hope K9 - Lives Saved by Aimpoint Digital</h5>
+                </div>
+
+                <div class="head-bar-icons">
+                    
+                </div>
+                
+                
+                    <div  class="body-canvas ">
+                      
+                      <div ><canvas id="text" class="row"></canvas>
+                        <div><canvas id="myChart" aria-label="chart"
+                          role="img" height="600px" width="400px"></canvas></div>
+                      </div>
+                      
+                      <div class="head-text"><canvas id="text2"></canvas>
+                          <div class="chart-col-2">
+                            <canvas id="newChart" aria-label="chart"
+                            role="img"></canvas>
+
+                            <canvas id="chart2" aria-label="chart"
+                            role="img" width="300" height="400"></canvas>
+                          </div>
+                      </div>
+
+                      <div class="head-text"><canvas id="text3"></canvas>
+                          <canvas id="charts" aria-label="chart"
+                          role="img" width="400" height="200"></canvas>
+                          
+                          <canvas id="barchart" aria-label="chart"
+                          role="img" width="300" height="400"></canvas>
+                      </div>
+                    </div>
+                    
+                </div>
+
+        </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
